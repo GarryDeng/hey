@@ -1,0 +1,493 @@
+.about-content .about-text {
+  color: #171616;
+  font-size: 0.09375rem;
+  text-align: center;
+  line-height: 2em;
+  margin-top: 0.671875rem;
+}
+.about-content .about-text .mt {
+  margin-bottom: .07rem;
+}
+.about-content .about-text h3 {
+  font-size: 0.125rem;
+  line-height: 2em;
+  font-weight: normal;
+}
+.about-content .project-link {
+  padding-bottom: 0;
+}
+.about-content .contact-tel {
+  width: 4.843749999999999rem;
+  margin: .3rem auto 1.234375rem auto;
+}
+.about-content .contact-tel li {
+  width: 1.614583333333333rem;
+  float: left;
+  text-align: center;
+}
+.about-content .contact-tel li a {
+  color: #010101;
+  text-transform: uppercase;
+  font-size: 0.0729166666666667rem;
+}
+.about-content .contact-tel li a:hover {
+  text-decoration: none;
+}
+.about-content .contact-tel li a:hover .icon::before {
+  opacity: 1;
+  -webkit-transform: scale(1.15);
+  -moz-transform: scale(1.15);
+  -ms-transform: scale(1.15);
+  -o-transform: scale(1.15);
+  transform: scale(1.15);
+}
+.about-content .contact-tel li .icon {
+  width: 0.7447916666666667rem;
+  height: 0.7447916666666667rem;
+  background-color: #dd3a20;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+  margin: 0 auto;
+  position: relative;
+}
+.about-content .contact-tel li .icon::before {
+  content: '';
+  display: block;
+  width: 0.7447916666666667rem;
+  height: 0.7447916666666667rem;
+  border: 2px solid #dd3a20;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+  position: absolute;
+  left: -2px;
+  top: -2px;
+  opacity: 0;
+  -webkit-transition: all .3s ease;
+  -moz-transition: all .3s ease;
+  -ms-transition: all .3s ease;
+  -o-transition: all .3s ease;
+  transition: all .3s ease;
+  -webkit-transform-origin: center;
+  -moz-transform-origin: center;
+  -ms-transform-origin: center;
+  -o-transform-origin: center;
+  transform-origin: center;
+}
+.about-content .contact-tel li .message {
+  background: #dd3a20 url("../images/chat.png") no-repeat center;
+  background-size: 0.3177083333333333rem auto;
+}
+.about-content .contact-tel li .person {
+  background: #dd3a20 url("../images/person.png") no-repeat center;
+  background-size: 0.3333333333333333rem auto;
+}
+.about-content .contact-tel li .text {
+  margin-top: 0.3125rem;
+  font-size: 0.0729166666666667rem;
+  color: #8f8f8f;
+}
+@media (max-width: 1152px) {
+  .about-content .about-text {
+    font-size: 0.1565217391304348rem;
+    margin-top: 0.671875rem;
+  }
+  .about-content .about-text h3 {
+    font-size: 0.2608695652173913rem;
+  }
+  .about-content .contact-tel {
+    width: 568px;
+  }
+  .about-content .contact-tel li {
+    width: 189px;
+  }
+  .about-content .contact-tel li a {
+    font-size: 12px;
+  }
+  .about-content .contact-tel li .icon {
+    width: 86px;
+    height: 86px;
+  }
+  .about-content .contact-tel li .icon::before {
+    width: 86px;
+    height: 86px;
+  }
+  .about-content .contact-tel li .message {
+    background: #dd3a20 url("../images/chat.png") no-repeat center;
+    background-size: 36px auto;
+  }
+  .about-content .contact-tel li .person {
+    background: #dd3a20 url("../images/person.png") no-repeat center;
+    background-size: 36px auto;
+  }
+  .about-content .contact-tel li .text {
+    margin-top: 0.3125rem;
+    font-size: 12px;
+  }
+}
+@media (max-width: 750px) {
+  .about-content .about-text {
+    font-size: 0.24rem;
+    padding: 0 .3rem;
+  }
+  .about-content .about-text .mt {
+    margin-bottom: 0.098rem;
+  }
+  .about-content .about-text h3 {
+    font-size: 0.4rem;
+  }
+  .about-content .contact-tel {
+    width: 10rem;
+  }
+  .about-content .contact-tel li {
+    width: 10rem;
+    margin: .3rem 0;
+  }
+  .about-content .contact-tel li .icon {
+    width: 86px;
+    height: 86px;
+  }
+  .about-content .contact-tel li .message {
+    background: #dd3a20 url("../images/chat.png") no-repeat center;
+    background-size: 36px auto;
+  }
+  .about-content .contact-tel li .person {
+    background: #dd3a20 url("../images/person.png") no-repeat center;
+    background-size: 36px auto;
+  }
+  .about-content .contact-tel li .text {
+    margin-top: 0.3125rem;
+    font-size: 12px;
+  }
+}
+.about-text-content {
+  padding-bottom: 126px;
+}
+.about-text-content .content-text {
+  max-width: 810px;
+  width: 100%;
+  padding: 0 18px;
+  margin: 0 auto;
+}
+.about-text-content .content-text .logo-title {
+  display: block;
+  margin: 0 auto;
+  padding: 64px 0;
+}
+.about-text-content .content-text .english-text {
+  font-size: 14px;
+  color: #000;
+  opacity: .5;
+  line-height: 2em;
+}
+.about-text-content .content-text .china-text {
+  font-size: 16px;
+  color: #000;
+  line-height: 1.8em;
+  padding-top: 40px;
+}
+.about-text-content .content-text .flower {
+  margin: 0 auto;
+  padding-top: 80px;
+  padding-bottom: 50px;
+  display: block;
+  width: 142px;
+  height: auto;
+}
+.about-text-content .content-text .l {
+  display: block;
+  margin: 0 auto;
+  width: 160px;
+  height: auto;
+  padding-top: 80px;
+  padding-bottom: 50px;
+}
+.about-text-content .content-text .title {
+  font-size: 32px;
+  color: #000;
+  text-align: center;
+  padding-bottom: 46px;
+}
+.about-text-content.bg-about-color {
+  background-color: #f8f7f7;
+}
+.about-text-content .list-pic {
+  font-size: 0;
+  width: 1282px;
+  margin: 0 auto;
+  position: relative;
+  overflow: hidden;
+  padding-top: 100px;
+}
+.about-text-content .list-pic .list-content {
+  width: 1320px;
+}
+.about-text-content .list-pic .list-content img {
+  margin-right: 35px;
+  width: 404px;
+  height: 277px;
+}
+.about-total-bg {
+  width: 100%;
+}
+.about-total-bg img {
+  display: block;
+  width: 100%;
+}
+.about-address-details .content-address {
+  width: 1282px;
+  margin: 0 auto;
+  padding-top: 150px;
+  padding-bottom: 150px;
+}
+.about-address-details .content-address .address-img {
+  display: block;
+}
+.about-address-details .content-address .address-text {
+  width: 518px;
+}
+.about-address-details .content-address .address-text .contact {
+  font-size: 40px;
+  color: #000;
+  line-height: 1.8em;
+}
+.about-address-details .content-address .address-text .email,
+.about-address-details .content-address .address-text .engilsh-adress,
+.about-address-details .content-address .address-text .china-text,
+.about-address-details .content-address .address-text .call,
+.about-address-details .content-address .address-text .join,
+.about-address-details .content-address .address-text .service {
+  font-size: 16px;
+  line-height: 1.8em;
+}
+.about-address-details .content-address .address-text .email {
+  padding-top: 34px;
+}
+.about-address-details .content-address .address-text .email span {
+  font-size: 18px;
+  color: red;
+}
+.about-address-details .content-address .address-text .office,
+.about-address-details .content-address .address-text .contact-us {
+  font-size: 20px;
+  padding-top: 40px;
+  line-height: 2em;
+}
+@media (max-width: 1400px) {
+  .about-text-content {
+    padding-bottom: 0.875rem;
+  }
+  .about-text-content .content-text {
+    max-width: 5.625rem;
+    width: 100%;
+    padding: 0 18px;
+    margin: 0 auto;
+  }
+  .about-text-content .content-text .logo-title {
+    display: block;
+    margin: 0 auto;
+    padding: 0.44444444rem 0;
+  }
+  .about-text-content .content-text .english-text {
+    font-size: 14px;
+    color: #000;
+    opacity: .5;
+    line-height: 2em;
+  }
+  .about-text-content .content-text .china-text {
+    font-size: 16px;
+    color: #000;
+    line-height: 1.8em;
+    padding-top: 0.27777778rem;
+  }
+  .about-text-content .content-text .flower {
+    padding-top: 0.55555556rem;
+    padding-bottom: 0.34722222rem;
+  }
+  .about-text-content .content-text .l {
+    padding-top: 0.55555556rem;
+    padding-bottom: 0.34722222rem;
+  }
+  .about-text-content .content-text .title {
+    font-size: 32px;
+    color: #000;
+    text-align: center;
+    padding-bottom: 0.31944444rem;
+  }
+  .about-text-content.bg-about-color {
+    background-color: #f8f7f7;
+  }
+  .about-text-content .list-pic {
+    font-size: 0;
+    width: 8.90277778rem;
+    margin: 0 auto;
+    position: relative;
+    overflow: hidden;
+    padding-top: 0.69444444rem;
+  }
+  .about-text-content .list-pic .list-content {
+    width: 9.16666667rem;
+  }
+  .about-text-content .list-pic .list-content img {
+    margin-right: 0.24305556rem;
+    width: 2.80555556rem;
+    height: 1.92361111rem;
+  }
+  .about-total-bg {
+    width: 100%;
+  }
+  .about-total-bg img {
+    display: block;
+    width: 100%;
+  }
+  .about-address-details .content-address {
+    width: 8.90277778rem;
+    margin: 0 auto;
+    padding-top: 1.04166667rem;
+    padding-bottom: 1.04166667rem;
+  }
+  .about-address-details .content-address .address-img {
+    width: 4.65277778rem;
+    height: auto;
+  }
+  .about-address-details .content-address .address-text {
+    width: 3.59722222rem;
+  }
+  .about-address-details .content-address .address-text .contact {
+    font-size: 30px;
+    color: #000;
+    line-height: 1.8em;
+  }
+  .about-address-details .content-address .address-text .email,
+  .about-address-details .content-address .address-text .engilsh-adress,
+  .about-address-details .content-address .address-text .china-text,
+  .about-address-details .content-address .address-text .call,
+  .about-address-details .content-address .address-text .join,
+  .about-address-details .content-address .address-text .service {
+    font-size: 14px;
+    line-height: 1.8em;
+  }
+  .about-address-details .content-address .address-text .email {
+    padding-top: 0.23611111rem;
+  }
+  .about-address-details .content-address .address-text .email span {
+    font-size: 16px;
+    color: red;
+  }
+  .about-address-details .content-address .address-text .office,
+  .about-address-details .content-address .address-text .contact-us {
+    font-size: 16px;
+    padding-top: 0.27777778rem;
+    line-height: 2em;
+  }
+}
+@media (max-width: 750px) {
+  .about-text-content {
+    padding-bottom: 0.875rem;
+  }
+  .about-text-content .content-text {
+    max-width: 9.4rem;
+    padding: 0;
+    margin: 0 auto;
+  }
+  .about-text-content .content-text .logo-title {
+    display: block;
+    margin: 0 auto;
+    padding: 0.85333333rem 0;
+    width: 1.44rem;
+    height: auto;
+  }
+  .about-text-content .content-text .english-text {
+    font-size: 10px;
+    color: #000;
+    opacity: .5;
+    line-height: 2em;
+  }
+  .about-text-content .content-text .china-text {
+    font-size: 12px;
+    color: #000;
+    line-height: 1.8em;
+    padding-top: 0.53333333rem;
+  }
+  .about-text-content .content-text .flower {
+    margin: 0 auto;
+    padding-top: 1.06666667rem;
+    padding-bottom: 0.66666667rem;
+    width: 1.89333333rem;
+  }
+  .about-text-content .content-text .l {
+    padding-top: 1.06666667rem;
+    padding-bottom: 0.66666667rem;
+    width: 2.13333333rem;
+  }
+  .about-text-content .content-text .title {
+    font-size: 0.42666667rem;
+    color: #000;
+    text-align: center;
+    padding-bottom: 0.61333333rem;
+  }
+  .about-text-content .list-pic {
+    font-size: 0;
+    width: 9.4rem;
+    padding-top: 1.33333333rem;
+  }
+  .about-text-content .list-pic .list-content {
+    width: 9.7rem;
+  }
+  .about-text-content .list-pic .list-content img {
+    margin-right: .3rem;
+    width: 2.933332rem;
+    height: auto;
+  }
+  .about-total-bg {
+    width: 100%;
+  }
+  .about-total-bg img {
+    display: block;
+    width: 100%;
+  }
+  .about-address-details .content-address {
+    width: 9.4rem;
+    margin: 0 auto;
+    padding-top: 1.04166667rem;
+    padding-bottom: 1.04166667rem;
+  }
+  .about-address-details .content-address .address-img {
+    width: 9.4rem;
+    height: auto;
+    float: none;
+  }
+  .about-address-details .content-address .address-text {
+    width: 9.4rem;
+    float: none;
+    padding-top: 1rem;
+  }
+  .about-address-details .content-address .address-text .contact {
+    font-size: 20px;
+    color: #000;
+    line-height: 1.8em;
+  }
+  .about-address-details .content-address .address-text .email,
+  .about-address-details .content-address .address-text .engilsh-adress,
+  .about-address-details .content-address .address-text .china-text,
+  .about-address-details .content-address .address-text .call,
+  .about-address-details .content-address .address-text .join,
+  .about-address-details .content-address .address-text .service {
+    font-size: 10px;
+    line-height: 1.8em;
+  }
+  .about-address-details .content-address .address-text .email {
+    padding-top: 0.23611111rem;
+  }
+  .about-address-details .content-address .address-text .email span {
+    font-size: 12px;
+    color: red;
+  }
+  .about-address-details .content-address .address-text .office,
+  .about-address-details .content-address .address-text .contact-us {
+    font-size: 13px;
+    padding-top: 0.27777778rem;
+    line-height: 2em;
+  }
+}

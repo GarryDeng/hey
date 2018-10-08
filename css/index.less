@@ -1,0 +1,28 @@
+#content-wrap{
+  position: relative;
+  overflow: hidden;
+}
+@media (max-width: 750px){
+  #content-wrap{
+    top: -1.15rem;
+    position: absolute;
+  }
+  .footer{
+    bottom:0;
+    position: absolute;
+    left:0;
+    height:2.9rem;
+    padding-top:.4rem;
+    ul{
+      &::before{
+        display: none;
+      }
+      li{
+        line-height: 0.72rem;
+      }
+    }
+    .img-link{
+      padding:0;
+    }
+  }
+}

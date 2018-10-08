@@ -1,0 +1,501 @@
+@colorRed:#dd3a20;
+.about-content{
+  .about-text{
+    color: #171616;
+    font-size:0.09375rem;
+    text-align: center;
+    line-height:2em;
+    margin-top:0.671875rem;
+    .mt{
+      margin-bottom:.07rem;
+    }
+    h3{
+      font-size:0.125rem;
+      line-height:2em;
+      font-weight:normal;
+    }
+  }
+  .project-link{
+    padding-bottom: 0;
+  }
+  .contact-tel{
+    width: 4.843749999999999rem;
+    margin: .3rem auto 1.234375rem auto;
+    li{
+      width:1.614583333333333rem;
+      float: left;
+      text-align: center;
+      a{
+        color: #010101;
+        text-transform: uppercase;
+        font-size:0.0729166666666667rem;
+        &:hover{
+          text-decoration: none;
+          .icon{
+            &::before{
+              opacity: 1;
+              -webkit-transform: scale(1.15);
+              -moz-transform: scale(1.15);
+              -ms-transform: scale(1.15);
+              -o-transform: scale(1.15);
+              transform: scale(1.15);
+            }
+          }
+        }
+      }
+      .icon{
+        width:0.7447916666666667rem;
+        height:0.7447916666666667rem;
+        background-color: @colorRed;
+        -webkit-border-radius:50%;
+        -moz-border-radius:50%;
+        border-radius:50%;
+        margin:0 auto;
+        position: relative;
+        &::before{
+          content: '';
+          display: block;
+          width:0.7447916666666667rem;
+          height:0.7447916666666667rem;
+          border:2px solid @colorRed;
+          -webkit-border-radius:50%;
+          -moz-border-radius:50%;
+          border-radius:50%;
+          position: absolute;
+          left:-2px;
+          top:-2px;
+          opacity: 0;
+          -webkit-transition: all .3s ease;
+          -moz-transition: all .3s ease;
+          -ms-transition: all .3s ease;
+          -o-transition: all .3s ease;
+          transition: all .3s ease;
+          -webkit-transform-origin: center;
+          -moz-transform-origin: center;
+          -ms-transform-origin: center;
+          -o-transform-origin: center;
+          transform-origin: center;
+        }
+      }
+      .message{
+        background: #dd3a20 url("../images/chat.png") no-repeat center;
+        background-size: 0.3177083333333333rem auto;
+      }
+      .person{
+        background: #dd3a20 url("../images/person.png") no-repeat center;
+        background-size: 0.3333333333333333rem auto;
+      }
+      .text{
+        margin-top:0.3125rem;
+        font-size: 0.0729166666666667rem;
+        color: #8f8f8f;
+
+      }
+    }
+  }
+}
+@media (max-width: 1152px){
+  .about-content{
+    .about-text{
+      font-size:0.1565217391304348rem;
+      margin-top:0.671875rem;
+      h3{
+        font-size:0.2608695652173913rem;
+      }
+    }
+    .contact-tel{
+      width: 568px;
+      li{
+        width:189px;
+        a{
+          font-size:12px;
+        }
+        .icon{
+          width:86px;
+          height:86px;
+          &::before{
+            width:86px;
+            height:86px;
+          }
+        }
+        .message{
+          background: #dd3a20 url("../images/chat.png") no-repeat center;
+          background-size: 36px auto;
+        }
+        .person{
+          background: #dd3a20 url("../images/person.png") no-repeat center;
+          background-size: 36px auto;
+        }
+        .text{
+          margin-top:0.3125rem;
+          font-size: 12px;
+        }
+      }
+    }
+  }
+}
+@media (max-width: 750px){
+  .about-content{
+    .about-text{
+      font-size:0.24rem;
+      padding:0 .3rem;
+      .mt{
+        margin-bottom:.07rem*1.4;
+      }
+      h3{
+        font-size:0.4rem;
+      }
+    }
+    .contact-tel{
+      width: 10rem;
+      li{
+        width:10rem;
+        margin:.3rem 0;
+        .icon{
+          width:86px;
+          height:86px;
+        }
+        .message{
+          background: #dd3a20 url("../images/chat.png") no-repeat center;
+          background-size: 36px auto;
+        }
+        .person{
+          background: #dd3a20 url("../images/person.png") no-repeat center;
+          background-size: 36px auto;
+        }
+        .text{
+          margin-top:0.3125rem;
+          font-size: 12px;
+        }
+      }
+    }
+  }
+}
+// 2018.10.06新增
+.about-text-content{
+  padding-bottom: 126px;
+  .content-text{
+    max-width: 810px;
+    width: 100%;
+    padding: 0 18px;
+    margin: 0 auto;
+    .logo-title{
+      display: block;
+      margin: 0 auto;
+      padding: 64px 0;
+    }
+    .english-text{
+      font-size: 14px;
+      color: #000;
+      opacity: .5;
+      line-height: 2em;
+    }
+    .china-text{
+      font-size: 16px;
+      color: #000;
+      line-height: 1.8em;
+      padding-top: 40px;
+    }
+    .flower{
+      margin: 0 auto;
+      padding-top: 80px;
+      padding-bottom: 50px;
+      display: block;
+      width: 142px;
+      height: auto;
+    }
+    .l{
+      display: block;
+      margin: 0 auto;
+      width: 160px;
+      height: auto;
+      padding-top: 80px;
+      padding-bottom: 50px;
+    }
+    .title{
+      font-size: 32px;
+      color: #000;
+      text-align: center;
+      padding-bottom: 46px;
+    }
+  }
+  &.bg-about-color{
+    background-color: #f8f7f7;
+  }
+  .list-pic{
+    font-size: 0;
+    width: 1282px;
+    margin: 0 auto;
+    position: relative;
+    overflow: hidden;
+    padding-top: 100px;
+    .list-content{
+      width: 1320px;
+      img{
+        margin-right: 35px;
+        width: 404px;
+        height: 277px;
+      }
+    }
+  }
+  // &.about-tp{
+  //   padding-top: 266px;
+  // }
+}
+.about-total-bg{
+  width: 100%;
+  img{
+    display: block;
+    width: 100%;
+  }
+}
+.about-address-details{
+  .content-address{
+    width: 1282px;
+    margin: 0 auto;
+    padding-top: 150px;
+    padding-bottom: 150px;
+    .address-img{
+      display: block;
+    }
+    .address-text{
+      width: 518px;
+      .contact{
+        font-size: 40px;
+        color: #000;
+        line-height: 1.8em;
+      }
+      .email,.engilsh-adress,.china-text,.call,.join,.service{
+        font-size: 16px;
+        line-height: 1.8em;
+      }
+      .email{
+        padding-top: 34px;
+        span{
+          font-size: 18px;
+          color: red;
+        }
+      }
+      .office,.contact-us{
+        font-size: 20px;
+        padding-top: 40px;
+        line-height: 2em;
+      }
+    }
+  }
+}
+@media (max-width: 1400px){
+  .about-text-content{
+    padding-bottom: 126/144rem;
+    .content-text{
+      max-width: 810/144rem;
+      width: 100%;
+      padding: 0 18px;
+      margin: 0 auto;
+      .logo-title{
+        display: block;
+        margin: 0 auto;
+        padding: 64/144rem 0;
+      }
+      .english-text{
+        font-size: 14px;
+        color: #000;
+        opacity: .5;
+        line-height: 2em;
+      }
+      .china-text{
+        font-size: 16px;
+        color: #000;
+        line-height: 1.8em;
+        padding-top: 40/144rem;
+      }
+      .flower{
+        padding-top: 80/144rem;
+        padding-bottom: 50/144rem;
+      }
+      .l{
+        padding-top: 80/144rem;
+        padding-bottom: 50/144rem;
+      }
+      .title{
+        font-size: 32px;
+        color: #000;
+        text-align: center;
+        padding-bottom: 46/144rem;
+      }
+    }
+    &.bg-about-color{
+      background-color: #f8f7f7;
+    }
+    .list-pic{
+      font-size: 0;
+      width: 1282/144rem;
+      margin: 0 auto;
+      position: relative;
+      overflow: hidden;
+      padding-top: 100/144rem;
+      .list-content{
+        width: 1320/144rem;
+        img{
+          margin-right: 35/144rem;
+          width: 404/144rem;
+          height: 277/144rem;
+        }
+      }
+    }
+    // &.about-tp{
+    //   padding-top: 266/144rem;
+    // }
+  }
+  .about-total-bg{
+    width: 100%;
+    img{
+      display: block;
+      width: 100%;
+    }
+  }
+  .about-address-details{
+    .content-address{
+      width: 1282/144rem;
+      margin: 0 auto;
+      padding-top: 150/144rem;
+      padding-bottom: 150/144rem;
+      .address-img{
+        width: 670/144rem;
+        height: auto;
+      }
+      .address-text{
+        width: 518/144rem;
+        .contact{
+          font-size: 30px;
+          color: #000;
+          line-height: 1.8em;
+        }
+        .email,.engilsh-adress,.china-text,.call,.join,.service{
+          font-size: 14px;
+          line-height: 1.8em;
+        }
+        .email{
+          padding-top: 34/144rem;
+          span{
+            font-size: 16px;
+            color: red;
+          }
+        }
+        .office,.contact-us{
+          font-size: 16px;
+          padding-top: 40/144rem;
+          line-height: 2em;
+        }
+      }
+    }
+  }
+}
+@media (max-width: 750px){
+  .about-text-content{
+    padding-bottom: 126/144rem;
+    .content-text{
+      max-width: 9.4rem;
+      padding: 0;
+      margin: 0 auto;
+      .logo-title{
+        display: block;
+        margin: 0 auto;
+        padding: 64/75rem 0;
+        width: 108/75rem;
+        height: auto;
+      }
+      .english-text{
+        font-size: 10px;
+        color: #000;
+        opacity: .5;
+        line-height: 2em;
+      }
+      .china-text{
+        font-size: 12px;
+        color: #000;
+        line-height: 1.8em;
+        padding-top: 40/75rem;
+      }
+      .flower{
+        margin: 0 auto;
+        padding-top: 80/75rem;
+        padding-bottom: 50/75rem;
+        width: 142/75rem;
+      }
+      .l{
+        padding-top: 80/75rem;
+        padding-bottom: 50/75rem;
+        width: 160/75rem;
+      }
+      .title{
+        font-size: 32/75rem;
+        color: #000;
+        text-align: center;
+        padding-bottom: 46/75rem;
+      }
+    }
+    .list-pic{
+      font-size: 0;
+      width: 9.4rem;
+      padding-top: 100/75rem;
+      .list-content{
+        width: 9.7rem;
+        img{
+          margin-right: .3rem;
+          width: 2.933332rem;
+          height: auto;
+        }
+      }
+    }
+    // &.about-tp{
+    //   padding-top: 266/144rem;
+    // }
+  }
+  .about-total-bg{
+    width: 100%;
+    img{
+      display: block;
+      width: 100%;
+    }
+  }
+  .about-address-details{
+    .content-address{
+      width: 9.4rem;
+      margin: 0 auto;
+      padding-top: 150/144rem;
+      padding-bottom: 150/144rem;
+      .address-img{
+        width: 9.4rem;
+        height: auto;
+        float: none;
+      }
+      .address-text{
+        width: 9.4rem;
+        float: none;
+        padding-top: 1rem;
+        .contact{
+          font-size: 20px;
+          color: #000;
+          line-height: 1.8em;
+        }
+        .email,.engilsh-adress,.china-text,.call,.join,.service{
+          font-size: 10px;
+          line-height: 1.8em;
+        }
+        .email{
+          padding-top: 34/144rem;
+          span{
+            font-size: 12px;
+            color: red;
+          }
+        }
+        .office,.contact-us{
+          font-size: 13px;
+          padding-top: 40/144rem;
+          line-height: 2em;
+        }
+      }
+    }
+  }
+}

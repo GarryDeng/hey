@@ -1,0 +1,829 @@
+@charset "UTF-8";
+.team-content .what-team {
+  margin-top: 0.84375rem;
+  height: 0.7916666666666667rem;
+  line-height: 0.7916666666666667rem;
+  text-align: center;
+  font-size: 0.15625rem;
+  position: relative;
+}
+.team-content .what-team::before {
+  content: '';
+  position: absolute;
+  left: 50%;
+  top: 0;
+  width: 1.135416666666667rem;
+  height: 3px;
+  background-color: #dcdcdc;
+  margin-left: -0.56770833rem;
+}
+.team-content .five-icon {
+  text-align: center;
+  width: 7rem;
+  margin: 0 auto;
+}
+.team-content .five-icon li {
+  display: inline-block;
+  width: 1.395833333333333rem;
+  margin: 0.328125rem 0.4479166666666667rem 0 0.4479166666666667rem;
+  position: relative;
+  height: 2.5rem;
+  padding-top: .15rem;
+  overflow: hidden;
+}
+.team-content .five-icon li.more {
+  line-height: 2.5rem;
+}
+.team-content .five-icon li.more a {
+  color: #000;
+  font-size: 0.11458333rem;
+}
+.team-content .five-icon li a {
+  cursor: default;
+}
+.team-content .five-icon li .circle {
+  display: block;
+  width: 0.6rem;
+  height: 0.6rem;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+  position: relative;
+  margin: 0 auto;
+}
+.team-content .five-icon li .border {
+  position: absolute;
+  left: -2px;
+  top: -2px;
+  width: 100%;
+  height: 100%;
+  border: 2px solid #dd3a20;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+  opacity: 0;
+  -webkit-transition: all .3s ease;
+  -moz-transition: all .3s ease;
+  -ms-transition: all .3s ease;
+  -o-transition: all .3s ease;
+  transition: all .3s ease;
+  -webkit-transform-origin: center;
+  -moz-transform-origin: center;
+  -ms-transform-origin: center;
+  -o-transform-origin: center;
+  transform-origin: center;
+}
+.team-content .five-icon li a:hover {
+  text-decoration: none;
+}
+.team-content .five-icon li a:hover .border {
+  opacity: 1;
+  -webkit-transform: scale(1.15);
+  -moz-transform: scale(1.15);
+  -ms-transform: scale(1.15);
+  -o-transform: scale(1.15);
+  transform: scale(1.15);
+}
+.team-content .five-icon li a:hover .button {
+  background-color: #535358;
+}
+.team-content .five-icon li .topic {
+  overflow: hidden;
+  padding-top: .3rem;
+  line-height: 1.5em;
+  text-align: center;
+  position: relative;
+  color: #010101;
+  font-size: 26px;
+  text-transform: uppercase;
+}
+.team-content .five-icon li .topic::before {
+  content: '';
+  left: 50%;
+  position: absolute;
+  bottom: 0;
+  width: 1.15625rem;
+  margin-left: -0.578125rem;
+  height: 2px;
+  background-color: #dcdcdc;
+}
+.team-content .five-icon li .topic span {
+  display: block;
+  font-size: 18px;
+  padding-bottom: 0.1458333333333333rem;
+}
+.team-content .five-icon li .hint {
+  margin-top: 0.1458333333333333rem;
+  font-size: 16px;
+  text-transform: uppercase;
+  color: #010101;
+  line-height: 1.5em;
+}
+.team-content .five-icon li .hint span {
+  display: block;
+  font-size: 0.0729166666666667rem;
+  text-transform: uppercase;
+  line-height: 1.8em;
+  height: 0.5729166666666667rem;
+  min-height: 60px;
+}
+.team-content .five-icon li .button {
+  margin-top: 0.1927083333333333rem;
+  display: block;
+  width: 100%;
+  background-color: #b5b5b5;
+  -webkit-transition: background .5s;
+  -moz-transition: background .5s;
+  -ms-transition: background .5s;
+  -o-transition: background .5s;
+  transition: background .5s;
+  color: #FFF;
+  font-size: 0.125rem;
+  text-transform: uppercase;
+  text-align: center;
+  line-height: 0.234375rem;
+  height: 0.234375rem;
+  -webkit-border-radius: 0.1171875rem;
+  -moz-border-radius: 0.1171875rem;
+  border-radius: 0.1171875rem;
+}
+.team-content .five-icon .station .circle {
+  background: #dd3a20 url("../images/station.png") no-repeat center;
+  -webkit-background-size: 0.25rem auto;
+  background-size: 0.25rem auto;
+}
+.team-content .five-icon .brand .circle {
+  background: #dd3a20 url("../images/banner.png") no-repeat center;
+  -webkit-background-size: 0.22rem auto;
+  background-size: 0.22rem auto;
+}
+.team-content .five-icon .pro .circle {
+  background: #dd3a20 url("../images/pro.png") no-repeat center;
+  -webkit-background-size: 0.33rem auto;
+  background-size: 0.3rem auto;
+}
+.team-content .five-icon .sofa .circle {
+  background: #dd3a20 url("../images/sofa.png") no-repeat center;
+  -webkit-background-size: 0.27rem auto;
+  background-size: 0.27rem auto;
+}
+.team-content .five-icon .user .circle {
+  background: #dd3a20 url("../images/user.png") no-repeat center;
+  -webkit-background-size: 0.25rem auto;
+  background-size: 0.25rem auto;
+}
+.team-content .fixation-position {
+  width: 5.885416666666667rem;
+  margin: 0.3645833333333333rem auto 0.8229166666666667rem auto;
+  position: relative;
+  overflow: hidden;
+}
+.team-content .fixation-position ul.one,
+.team-content .fixation-position ul.two,
+.team-content .fixation-position ul.three {
+  position: relative;
+  left: 0;
+  width: 6.041666666666667rem ;
+}
+.team-content .fixation-position ul.one li,
+.team-content .fixation-position ul.two li,
+.team-content .fixation-position ul.three li {
+  margin-right: 0.1562499999999997rem;
+}
+.team-content .fixation-position ul.one li {
+  float: left;
+}
+.team-content .fixation-position ul.two {
+  margin-top: 1.041666666666667rem;
+}
+.team-content .fixation-position ul.two li {
+  float: left;
+  margin-bottom: 0.1562499999999997rem;
+}
+.team-content .fixation-position ul.two .two-mr {
+  margin-left: 1.51041667rem;
+}
+.team-content .fixation-position ul.two .clear {
+  margin-left: 3.02083333rem;
+}
+.team-content .fixation-position ul.three {
+  margin-top: 0.83333333rem;
+  margin-bottom: 0.67708333rem;
+}
+.team-content .fixation-position ul.three li {
+  float: left;
+}
+.team-content .fixation-position ul.three .two-mr {
+  position: absolute;
+  top: -1.51041667rem;
+  left: 0;
+}
+.team-content .fixation-position ul.three .three-mr {
+  position: absolute;
+  left: 0;
+  bottom: -1.51041667rem;
+}
+.team-content .fixation-position ul.four {
+  margin-top: 0;
+}
+.team-content .fixation-position ul.four li {
+  float: left;
+}
+.team-content .fixation-position ul.four.four-l1 {
+  margin-left: 1.51041667rem;
+}
+.team-content .fixation-position ul.four.four-l2 {
+  margin-left: 3.02083333rem;
+}
+.team-content .fixation-position li {
+  width: 1.354166666666667rem;
+  height: 1.354166666666667rem;
+  position: relative;
+  cursor: pointer;
+}
+.team-content .fixation-position li .players {
+  width: 100%;
+}
+.team-content .fixation-position li .hover {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.4);
+  text-align: center;
+  opacity: 0;
+  -webkit-transition: opacity 0.5s cubic-bezier(0.41, 0.3, 0.38, 0.47);
+  -moz-transition: opacity 0.5s cubic-bezier(0.41, 0.3, 0.38, 0.47);
+  -ms-transition: opacity 0.5s cubic-bezier(0.41, 0.3, 0.38, 0.47);
+  -o-transition: opacity 0.5s cubic-bezier(0.41, 0.3, 0.38, 0.47);
+  transition: opacity 0.37s cubic-bezier(0.41, 0.3, 0.38, 0.47);
+}
+.team-content .fixation-position li .red-bg {
+  background-color: rgba(221, 58, 32, 0.4);
+}
+.team-content .fixation-position li:hover .hover {
+  opacity: 1;
+}
+.team-content .fixation-position li .title,
+.team-content .fixation-position li .bottom {
+  color: #FFF;
+}
+.team-content .fixation-position li .title {
+  padding-top: 0.40625rem;
+  position: relative;
+  /* &::before{
+          content: '';
+          position: absolute;
+          height:0;
+          border-bottom:1px solid #FFF;
+          width:0.2083333333333333rem;
+          left:50%;
+          margin-left:-0.2083333333333333rem/2;
+          bottom:0;
+        }*/
+}
+.team-content .fixation-position li .title img {
+  width: 0.3333333333333333rem;
+}
+.team-content .fixation-position li .bottom {
+  font-size: 14px;
+}
+.team-content .what-alert,
+.team-content .user-alert {
+  background-color: rgba(0, 0, 0, 0.1);
+  position: fixed;
+  z-index: 99999;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow-y: auto;
+  display: none;
+}
+.team-content .what-alert .content,
+.team-content .user-alert .content {
+  width: 5.6875rem;
+  margin: .3rem auto;
+  background-color: #FFF;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  padding-left: 0.5885416666666667rem;
+  padding-top: 0.3rem;
+  padding-bottom: 0.9375rem;
+  position: relative;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -moz-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  -o-transform: translateY(-50%);
+  transform: translateY(-50%);
+  display: none;
+}
+.team-content .what-alert .content .title,
+.team-content .user-alert .content .title {
+  font-size: 0.15625rem;
+  color: #322e2e;
+  line-height: 0.15625rem;
+}
+.team-content .what-alert .content .text,
+.team-content .user-alert .content .text {
+  font-size: 0.09375rem;
+  color: #dd3a20;
+  line-height: 0.1875rem;
+  padding-bottom: 0.3541666666666667rem;
+}
+.team-content .what-alert .content .middle .left,
+.team-content .user-alert .content .middle .left {
+  width: 2.291666666666667rem;
+  float: left;
+  color: #0b0a0a;
+  font-size: 0.09375rem;
+}
+.team-content .what-alert .content .middle .right-img,
+.team-content .user-alert .content .middle .right-img {
+  width: 1.875rem;
+  float: left;
+  margin-left: 0.3645833333333333rem;
+}
+.team-content .what-alert .content .icon span,
+.team-content .user-alert .content .icon span {
+  display: block;
+  top: 50%;
+  margin-top: -0.125rem;
+  width: 0.2rem;
+  height: 0.25rem;
+  position: absolute;
+  background: url("../images/team-left.png") no-repeat center;
+  background-size: 0.0989583333333333rem auto;
+  cursor: pointer;
+}
+.team-content .what-alert .content .icon span::before,
+.team-content .user-alert .content .icon span::before {
+  content: '';
+  width: 0.125rem;
+  height: 0.25rem;
+  background-color: #4b4b4f;
+  position: absolute;
+  -webkit-border-top-left-radius: 0.25rem;
+  -moz-border-top-left-radius: 0.25rem;
+  -ms-border-top-left-radius: 0.25rem;
+  border-top-left-radius: 0.25rem;
+  -webkit-border-bottom-left-radius: 0.25rem;
+  -ms-border-bottom-left-radius: 0.25rem;
+  -moz-border-bottom-left-radius: 0.25rem;
+  border-bottom-left-radius: 0.25rem;
+  left: -0.225rem;
+}
+.team-content .what-alert .content .icon .switchover-left,
+.team-content .user-alert .content .icon .switchover-left {
+  left: .1rem;
+}
+.team-content .what-alert .content .icon .switchover-right,
+.team-content .user-alert .content .icon .switchover-right {
+  -webkit-transform-origin: center;
+  -moz-transform-origin: center;
+  -ms-transform-origin: center;
+  -o-transform-origin: center;
+  transform-origin: center;
+  -webkit-transform: rotate(180deg);
+  -moz-transform: rotate(180deg);
+  -ms-transform: rotate(180deg);
+  -o-transform: rotate(180deg);
+  transform: rotate(180deg);
+  right: .1rem;
+}
+.team-content .what-alert .content .icon .close,
+.team-content .user-alert .content .icon .close {
+  display: block;
+  background: url("../images/close.png") no-repeat center;
+  background-size: 0.1041666666666667rem auto;
+  width: .15rem;
+  height: .15rem;
+  position: absolute;
+  top: 0.1041666666666667rem;
+  right: 0.1041666666666667rem;
+  cursor: pointer;
+}
+.team-content .user-alert .case {
+  position: absolute;
+  right: .3rem;
+  bottom: .3rem;
+  color: #322e2e;
+  font-size: 16px;
+}
+.team-content .user-alert .case:hover {
+  text-decoration: none;
+}
+.team-content .user-alert .content {
+  padding-top: 0.5208333333333333rem;
+  padding-bottom: 0.6770833333333333rem;
+}
+.team-content .user-alert .content .content-left {
+  float: left;
+  margin-left: 0.3229166666666667rem;
+  width: 2.958333333333333rem;
+}
+.team-content .user-alert .content .left-img {
+  float: left;
+  width: 1.354166666666667rem;
+}
+.team-content .user-alert .content .content-text {
+  font-size: 0.0729166666666667rem;
+  color: #322e2e;
+  line-height: 1.8em;
+}
+.team-content .user-alert .content .icon span::before {
+  display: none;
+}
+@media (max-width: 1152px) {
+  .team-content {
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+    padding: 0;
+    margin: 0;
+  }
+  .team-content .what-team {
+    margin-top: 97px;
+    height: 91px;
+    line-height: 91px;
+    font-size: 18px;
+  }
+  .team-content .what-team::before {
+    width: 130px;
+    margin-left: -65px;
+  }
+  .team-content .five-icon {
+    width: 10rem;
+    margin: 0;
+    overflow: hidden;
+    position: relative;
+  }
+  .team-content .five-icon li {
+    width: 2.3333333333333rem;
+    margin: 0.328125rem 0.3rem 0 0.3rem;
+    position: relative;
+    height: 3.2rem;
+  }
+  .team-content .five-icon li.more {
+    line-height: 1.8rem;
+  }
+  .team-content .five-icon li.more a {
+    font-size: .32rem;
+  }
+  .team-content .five-icon li .topic {
+    /* height:48px;
+          line-height:48px;*/
+    font-size: 14px;
+  }
+  .team-content .five-icon li .topic span {
+    font-size: 12px;
+  }
+  .team-content .five-icon li .topic::before {
+    width: 42px;
+    margin-left: -21px;
+  }
+  .team-content .five-icon li .hint {
+    margin-top: 17px;
+    font-size: 12px;
+  }
+  .team-content .five-icon li .hint span {
+    font-size: 12px;
+  }
+  .team-content .five-icon li .button {
+    margin-top: 22px;
+    font-size: 14px;
+    line-height: 26px;
+    height: 26px;
+    -webkit-border-radius: 13px;
+    -moz-border-radius: 13px;
+    border-radius: 13px;
+  }
+  .team-content .fixation-position {
+    width: 678px;
+    margin: 42px auto 42px auto;
+  }
+  .team-content .fixation-position ul.one,
+  .team-content .fixation-position ul.two,
+  .team-content .fixation-position ul.three {
+    width: 696px;
+  }
+  .team-content .fixation-position ul.one li,
+  .team-content .fixation-position ul.two li,
+  .team-content .fixation-position ul.three li {
+    margin-right: 18px;
+  }
+  .team-content .fixation-position ul.two {
+    margin-top: 120px;
+  }
+  .team-content .fixation-position ul.two li {
+    margin-bottom: 18px;
+  }
+  .team-content .fixation-position ul.two .two-mr {
+    margin-right: 18px;
+    margin-left: 156px 18px;
+  }
+  .team-content .fixation-position ul.two.clear {
+    margin-left: 312px 54px;
+  }
+  .team-content .fixation-position ul.three {
+    margin-top: 96px;
+    margin-bottom: 78px;
+  }
+  .team-content .fixation-position ul.three .two-mr {
+    top: -174px;
+  }
+  .team-content .fixation-position ul.three .three-mr {
+    bottom: -174px;
+  }
+  .team-content .fixation-position li {
+    width: 156px;
+    height: 156px;
+  }
+  .team-content .fixation-position li .title,
+  .team-content .fixation-position li .bottom {
+    font-size: 12px;
+  }
+  .team-content .fixation-position li .title {
+    padding-top: 46px;
+  }
+  .team-content .fixation-position li .title::before {
+    width: 24px;
+    margin-left: -12px;
+  }
+  .team-content .what-alert .content,
+  .team-content .user-alert .content {
+    width: 655px;
+    margin: 34px auto;
+    padding-left: 67px;
+    padding-top: 34px;
+    padding-bottom: 108px;
+  }
+  .team-content .what-alert .content .title,
+  .team-content .user-alert .content .title {
+    font-size: 18px;
+    line-height: 18px;
+  }
+  .team-content .what-alert .content .text,
+  .team-content .user-alert .content .text {
+    font-size: 12px;
+    line-height: 24px;
+    padding-bottom: 40px;
+  }
+  .team-content .what-alert .content .middle .left,
+  .team-content .user-alert .content .middle .left {
+    width: 264px;
+    font-size: 12px;
+  }
+  .team-content .what-alert .content .middle .right-img,
+  .team-content .user-alert .content .middle .right-img {
+    width: 216px;
+    margin-left: 42px;
+  }
+  .team-content .what-alert .content .icon span,
+  .team-content .user-alert .content .icon span {
+    margin-top: -14px;
+    width: 23px;
+    height: 28px;
+    background: url("../images/team-left.png") no-repeat center;
+    background-size: 11px auto;
+  }
+  .team-content .what-alert .content .icon span::before,
+  .team-content .user-alert .content .icon span::before {
+    width: 14px;
+    height: 28px;
+    -webkit-border-top-left-radius: 28px;
+    -moz-border-top-left-radius: 28px;
+    -ms-border-top-left-radius: 28px;
+    border-top-left-radius: 28px;
+    -webkit-border-bottom-left-radius: 28px;
+    -ms-border-bottom-left-radius: 28px;
+    -moz-border-bottom-left-radius: 28px;
+    border-bottom-left-radius: 28px;
+    left: -23px;
+  }
+  .team-content .what-alert .content .icon .close,
+  .team-content .user-alert .content .icon .close {
+    background: url("../images/close.png") no-repeat center;
+    background-size: 12px auto;
+    width: 17px;
+    height: 17px;
+    top: 12px;
+    right: 12px;
+  }
+  .team-content .user-alert .content {
+    padding-top: 60px;
+    padding-bottom: 78px;
+  }
+  .team-content .user-alert .content .content-left {
+    margin-left: 37px;
+    width: 340px;
+  }
+  .team-content .user-alert .content .left-img {
+    width: 156px;
+  }
+  .team-content .user-alert .content .content-text {
+    font-size: 12px;
+  }
+}
+@media (max-width: 750px) {
+  .team-content * {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+  .team-content .what-team {
+    margin-top: 1rem;
+    height: 1.2rem;
+    line-height: 1.2rem;
+    font-size: 14px;
+  }
+  .team-content .what-team::before {
+    width: 100px;
+    margin-left: -50px;
+    height: 1px;
+  }
+  .team-content .five-icon li a:hover .border {
+    opacity: 0;
+    -webkit-transform: scale(1);
+    -moz-transform: scale(1);
+    -ms-transform: scale(1);
+    -o-transform: scale(1);
+    transform: scale(1);
+  }
+  .team-content .five-icon li {
+    width: 7.4rem;
+    margin: 0.328125rem 1.3rem .6rem 1.3rem;
+    display: block;
+    float: left;
+    height: auto;
+    padding-top: 0;
+  }
+  .team-content .five-icon li::after {
+    content: '';
+    display: block;
+    height: 0;
+    width: 0;
+    clear: both;
+    position: absolute;
+    overflow: hidden;
+  }
+  .team-content .five-icon li .topic::before {
+    width: 42px;
+    margin-left: -21px;
+  }
+  .team-content .five-icon li .circle {
+    width: 2.25rem;
+    height: 2.25rem;
+  }
+  .team-content .five-icon li .button {
+    width: 80%;
+    margin: .5rem auto 0 auto;
+  }
+  .team-content .five-icon .station .circle {
+    background: #dd3a20 url("../images/station.png") no-repeat center;
+    -webkit-background-size: 0.9866666666666667rem auto;
+    background-size: 0.9866666666666667rem auto;
+  }
+  .team-content .five-icon .brand .circle {
+    background: #dd3a20 url("../images/banner.png") no-repeat center;
+    -webkit-background-size: 0.9866666666666667rem auto;
+    background-size: 0.9866666666666667rem auto;
+  }
+  .team-content .five-icon .pro .circle {
+    background: #dd3a20 url("../images/pro.png") no-repeat center;
+    -webkit-background-size: 0.9866666666666667rem auto;
+    background-size: 0.9866666666666667rem auto;
+  }
+  .team-content .five-icon .sofa .circle {
+    background: #dd3a20 url("../images/sofa.png") no-repeat center;
+    -webkit-background-size: 0.9866666666666667rem auto;
+    background-size: 0.9866666666666667rem auto;
+  }
+  .team-content .five-icon .user .circle {
+    background: #dd3a20 url("../images/user.png") no-repeat center;
+    -webkit-background-size: 0.88rem auto;
+    background-size: 0.88rem auto;
+  }
+  .team-content .fixation-position {
+    width: 9.4rem;
+    margin: 0.56rem auto 1.56rem auto;
+  }
+  .team-content .fixation-position ul.one,
+  .team-content .fixation-position ul.two,
+  .team-content .fixation-position ul.three {
+    width: 9.7rem;
+  }
+  .team-content .fixation-position ul.one li,
+  .team-content .fixation-position ul.two li,
+  .team-content .fixation-position ul.three li {
+    margin-right: .3rem;
+  }
+  .team-content .fixation-position ul.two {
+    margin-top: .6rem;
+  }
+  .team-content .fixation-position ul.two li {
+    margin-bottom: .3rem;
+  }
+  .team-content .fixation-position ul.two .two-mr {
+    margin-left: 2.425rem;
+    margin-right: .3rem;
+  }
+  .team-content .fixation-position ul.two .clear {
+    margin-left: 4.85rem;
+  }
+  .team-content .fixation-position ul.two.four-l2 {
+    margin-left: 4.85rem;
+  }
+  .team-content .fixation-position ul.two.four-l1 {
+    margin-left: 2.425rem;
+  }
+  .team-content .fixation-position ul.two.four {
+    margin-top: 0;
+  }
+  .team-content .fixation-position ul.three {
+    margin-top: 1.28rem;
+    margin-bottom: 1.04rem;
+  }
+  .team-content .fixation-position ul.three .two-mr {
+    top: -2.34rem;
+  }
+  .team-content .fixation-position ul.three .three-mr {
+    bottom: -2.34rem;
+  }
+  .team-content .fixation-position li {
+    width: 2.125rem;
+    height: 2.125rem;
+  }
+  .team-content .fixation-position li .title,
+  .team-content .fixation-position li .bottom {
+    font-size: 12px;
+  }
+  .team-content .fixation-position li .title {
+    padding-top: 0.6133333333333333rem;
+    line-height: 0.5066666666666667rem;
+  }
+  .team-content .fixation-position li .title::before {
+    width: 0.32rem;
+    margin-left: 0.16rem;
+  }
+  .team-content .fixation-position li .bottom {
+    padding-top: .2rem;
+  }
+  .team-content .what-alert .content,
+  .team-content .user-alert .content {
+    width: 8.733333333333333rem;
+    margin: .3rem auto;
+    padding-left: 0.3rem;
+    padding-top: 0.4533333333333333rem;
+    padding-bottom: .8rem;
+  }
+  .team-content .what-alert .content .title,
+  .team-content .user-alert .content .title {
+    padding-left: .5rem;
+  }
+  .team-content .what-alert .content .text,
+  .team-content .user-alert .content .text {
+    padding-bottom: .5333333333333rem;
+    padding-left: .5rem;
+  }
+  .team-content .what-alert .content .icon span,
+  .team-content .user-alert .content .icon span {
+    display: none;
+  }
+  .team-content .what-alert .content .icon span::before,
+  .team-content .user-alert .content .icon span::before {
+    display: none;
+  }
+  .team-content .what-alert .content .middle .left,
+  .team-content .user-alert .content .middle .left {
+    width: 7.52rem;
+    padding-left: .5rem;
+  }
+  .team-content .what-alert .content .middle .right-img,
+  .team-content .user-alert .content .middle .right-img {
+    width: 5.88rem;
+    margin-left: 0.5rem;
+    margin-top: .3rem;
+  }
+  .team-content .user-alert .content {
+    padding-top: 0.8rem;
+    padding-bottom: 1.04rem;
+  }
+  .team-content .user-alert .content .content-left {
+    margin-left: .38rem;
+    width: 7.5rem;
+  }
+  .team-content .user-alert .content .left-img {
+    width: 2.08rem;
+    margin-left: .3rem;
+    margin-bottom: .3rem;
+  }
+  .team-content .user-alert .content .title {
+    padding-left: 0;
+  }
+  .team-content .user-alert .content .text {
+    padding-left: 0;
+  }
+}

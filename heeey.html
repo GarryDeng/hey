@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en-US" >
+<head>
+<meta charset="UTF-8">
+<!--[if IE]>
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<![endif]-->
+<title>index</title>
+<meta name="viewport" content="user-scalable=no, width=device-width, initial-scale=1, maximum-scale=1, minimal-ui">
+<link rel="stylesheet" href="./css/common.css"/>
+<link rel="stylesheet" href="./css/index.css"/>
+<script type="text/javascript"> var frontpage_quote=""; </script>
+<script type="text/javascript" src="./js/jquery.js"></script>
+<script type="text/javascript" src="./js/jquery-migrate.min.js"></script>
+<script src="./js/require.js"></script>
+<script src="./js/common.js"></script>
+
+<!--<script type="text/javascript" src="./js/main_release.js"></script>-->
+<script type="text/javascript" src="./js/particle_release.js"></script>
+</head>
+
+<body>
+	<header class="clear nav">
+		<div class="fl hamburger">
+			<div class="line"></div>
+			<div class="line"></div>
+			<div class="line"></div>
+		</div>
+		<div class="fr design-service">
+			<img class="logo fr" src="./images/logo.png" alt="logo">
+			<div class="text-content fr">
+				<span class="top">SERVICE DESIGN</span><br/>
+				<span class="bottom">CENTER</span>
+			</div>
+		</div>
+	</header>
+	<div class="left-nav">
+		<ul>
+			<li class="clear"><a href="">home</a></li>
+			<li class="clear"><a href="">team</a></li>
+			<li class="clear"><a href="">project</a></li>
+			<li class="clear"><a href="">about</a></li>
+		</ul>
+	</div>
+	<script>
+		$(".hamburger").on('click',function(){
+		    if($(this).hasClass("two-hamburger")){
+		        $(this).removeClass('two-hamburger');
+		        $(".left-nav").removeClass('left-nav-scale');
+		        return;
+			}
+            $(".left-nav").addClass('left-nav-scale');
+		    $(this).addClass("two-hamburger");
+		})
+		$(window).on('scroll',function(){
+            $('.hamburger').removeClass('two-hamburger');
+            $(".left-nav").removeClass('left-nav-scale');
+		})
+	</script>
+	<div id="content-wrap">
+		<main class="front-page" role="main" id="particles" style="visibility: inherit; opacity: 1;">
+			<canvas width="1920" height="917" style="width: 1920px; height: 917px;"></canvas>
+		</main>
+	</div>
+	<div class="footer">
+		<ul class="link clear">
+			<li><a href="">home</a></li>
+			<li><a href="">team</a></li>
+			<li><a href="">project</a></li>
+			<li><a href="">about</a></li>
+		</ul>
+		<div class="img-link">
+			<a class="tt" href=""></a>
+			<a class="facebook" href=""></a>
+			<a class="wb" href=""></a>
+		</div>
+		<p class="remark">Copyright © 2016 Asia Chimian Company 粤ICP备15048080号.</p>
+	</div>
+</body>
+</html>
