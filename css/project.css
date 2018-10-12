@@ -84,33 +84,6 @@
 .project-content .project-sort a:hover {
   text-decoration: none;
 }
-.project-content .project-link {
-  width: 5.885416666666667rem;
-  margin: 0 auto;
-  position: relative;
-  overflow: hidden;
-  padding-bottom: 0.9375rem;
-  margin-top: 0.2383419689119171rem;
-}
-.project-content .project-link ul {
-  width: 6.041666666666667rem;
-  position: relative;
-  left: 0;
-}
-.project-content .project-link li {
-  float: left;
-  margin-right: 0.1562500000000001rem;
-  margin-bottom: 0.1770833333333333rem;
-  width: 1.354166666666667rem;
-  height: 1.354166666666667rem;
-  position: relative;
-  overflow: hidden;
-}
-.project-content .project-link li img {
-  display: block;
-  width: 1.354166666666667rem;
-  height: 1.354166666666667rem;
-}
 @media (max-width: 1152px) {
   .project-content .banner img {
     width: 680px;
@@ -303,7 +276,61 @@ a:hover {
   overflow: hidden;
   height: 44.8px;
 }
+.project-content .project-link {
+  width: 1300px;
+  margin: 0 auto;
+  position: relative;
+  overflow: hidden;
+  padding-bottom: 100px;
+  margin-top: 30px;
+}
+.project-content .project-link ul {
+  width: 1390px;
+  position: relative;
+  left: 0;
+}
+.project-content .project-link li {
+  float: left;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  width: 200px;
+  height: 200px;
+  position: relative;
+  overflow: hidden;
+}
+.project-content .project-link li img {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
 @media (max-width: 1440px) {
+  .project-content .project-link {
+    width: 8.27777778rem;
+    margin: 0 auto;
+    position: relative;
+    overflow: hidden;
+    padding-bottom: 0.69444444rem;
+    margin-top: 0.20833333rem;
+  }
+  .project-content .project-link ul {
+    width: 8.76388889rem;
+    position: relative;
+    left: 0;
+  }
+  .project-content .project-link li {
+    float: left;
+    margin-right: 0.15972222rem;
+    margin-bottom: 0.15972222rem;
+    width: 1.52777778rem;
+    height: 1.52777778rem;
+    position: relative;
+    overflow: hidden;
+  }
+  .project-content .project-link li img {
+    display: block;
+    width: 100%;
+    height: 100%;
+  }
   .project-nav {
     padding-top: 0.83333333rem;
     padding-bottom: 0.55555556rem;

@@ -204,7 +204,7 @@
   padding-bottom: 50px;
 }
 .about-text-content .content-text .title {
-  font-size: 32px;
+  font-size: 26px;
   color: #000;
   text-align: center;
   padding-bottom: 46px;
@@ -248,7 +248,7 @@
   width: 518px;
 }
 .about-address-details .content-address .address-text .contact {
-  font-size: 40px;
+  font-size: 30px;
   color: #000;
   line-height: 1.8em;
 }
@@ -296,7 +296,7 @@
     line-height: 2em;
   }
   .about-text-content .content-text .china-text {
-    font-size: 16px;
+    font-size: 14px;
     color: #000;
     line-height: 1.8em;
     padding-top: 0.27777778rem;
@@ -310,7 +310,7 @@
     padding-bottom: 0.34722222rem;
   }
   .about-text-content .content-text .title {
-    font-size: 32px;
+    font-size: 24px;
     color: #000;
     text-align: center;
     padding-bottom: 0.31944444rem;
@@ -355,7 +355,7 @@
     width: 3.59722222rem;
   }
   .about-address-details .content-address .address-text .contact {
-    font-size: 30px;
+    font-size: 24px;
     color: #000;
     line-height: 1.8em;
   }
@@ -365,7 +365,7 @@
   .about-address-details .content-address .address-text .call,
   .about-address-details .content-address .address-text .join,
   .about-address-details .content-address .address-text .service {
-    font-size: 14px;
+    font-size: 12px;
     line-height: 1.8em;
   }
   .about-address-details .content-address .address-text .email {
@@ -422,7 +422,7 @@
     width: 2.13333333rem;
   }
   .about-text-content .content-text .title {
-    font-size: 0.42666667rem;
+    font-size: 0.34666667rem;
     color: #000;
     text-align: center;
     padding-bottom: 0.61333333rem;
