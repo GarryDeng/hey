@@ -113,6 +113,11 @@ body {
   src: url('../font/System.eot');
   src: url('../font/System.eot') format('embedded-opentype'), url('../font/System.woff') format('woff'), url('../font/System.ttf') format('truetype'), url('../font/System.svg') format('svg');
 }
+@font-face {
+  font-family: 'Portrait';
+  src: url('../font/Portrait-Bold_0.eot');
+  src: url('../font/Portrait-Bold_0.eot') format('embedded-opentype'), url('../font/Portrait-Bold_0.woff') format('woff'), url('../font/Portrait-Bold_0.svg') format('svg');
+}
 /*导航*/
 .nav {
   position: absolute;
@@ -270,7 +275,7 @@ body {
   transform: rotate(-45deg);
 }
 .left-nav {
-  width: 2.552083333333333rem;
+  width: 490px;
   background-color: #dd3a20;
   position: fixed;
   top: 0;
@@ -305,6 +310,11 @@ body {
   position: absolute;
   background-color: transparent;
   z-index: -1;
+}
+.left-nav ul {
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
 }
 .left-nav li {
   -webkit-transform: scale(0);
@@ -348,15 +358,13 @@ body {
   transition: transform .8s .6s ease;
 }
 .left-nav a {
-  line-height: 0.5364583333333333rem;
+  line-height: 130px;
   color: #FFF;
-  font-size: 0.2083333333333333rem;
+  font-size: 26px;
   text-transform: uppercase;
-  display: block;
-  text-align: right;
+  text-align: center;
   font-weight: bold;
-  margin-right: 0.3385416666666667rem;
-  float: right;
+  display: block;
 }
 .left-nav a:hover {
   text-decoration: none;
@@ -383,21 +391,22 @@ body {
   padding-top: .6rem;
 }
 .footer ul {
-  width: 2.630208333333333rem;
-  margin: 0 auto;
   position: relative;
+  font-size: 0;
+  text-align: center;
 }
 .footer li {
-  float: left;
-  width: 25%;
-  line-height: 0.46875rem;
+  width: 160px;
+  display: inline-block;
   text-align: center;
   position: relative;
+  font-size: 0;
 }
 .footer li a {
   color: #FFF;
-  font-size: 0.1041666666666667rem;
-  text-transform: uppercase;
+  font-size: 14px;
+  font-weight: normal;
+  font-family: Portrait;
 }
 .footer li a:hover {
   text-decoration: none;
@@ -458,6 +467,10 @@ body {
 .header-top .project {
   min-width: 100%;
   min-height: 100%;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
 }
 .header-top .fixed-index-transform {
   position: absolute;
@@ -498,9 +511,6 @@ body {
     height: 216px;
     padding-top: 69px;
   }
-  .footer ul {
-    width: 303px;
-  }
   .footer li {
     line-height: 54px;
   }
@@ -539,13 +549,11 @@ body {
     width: 50px;
   }
   .left-nav {
-    padding-top: 100px;
-    width: 294px;
+    width: 2.55208333rem;
   }
   .left-nav a {
-    line-height: 62px;
-    font-size: 24px;
-    margin-right: 39px;
+    line-height: 0.67708333rem;
+    font-size: 0.13541667rem;
   }
   .nav {
     height: 100px;
@@ -610,8 +618,9 @@ body {
     padding-top: 0.5246376811594203rem;
     position: relative;
   }
-  .footer ul {
-    width: 8rem;
+  .footer ul li {
+    width: auto;
+    padding: 0 .3rem;
   }
   .footer ul::before {
     width: .4rem;
@@ -626,20 +635,19 @@ body {
     margin: 0 auto;
     padding-top: .3rem;
     line-height: .38rem;
-    font-size: .26rem;
+    font-size: 12px;
   }
   .footer .remark .hey-logo {
     width: 0.8rem;
     margin-right: 0.2133333333333333rem;
   }
   .left-nav {
-    padding-top: 2.415458937198068rem;
-    width: 7.101449275362319rem;
+    padding-top: 2rem;
+    width: 200px;
   }
   .left-nav a {
-    line-height: 1.497584541062802rem;
-    font-size: 0.5797101449275362rem;
-    margin-right: 0.9420289855072464rem;
+    line-height: 3.8em;
+    font-size: 12px;
   }
   .nav {
     height: 1.615458937198068rem;
