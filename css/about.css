@@ -1,3 +1,12 @@
+.about-content-001 {
+  margin-top: 80px;
+  position: relative;
+  width: 100%;
+}
+.about-content-001 img {
+  width: 100%;
+  display: block;
+}
 .about-content .about-text {
   color: #171616;
   font-size: 0.09375rem;
@@ -305,6 +314,9 @@
     line-height: 1.8em;
     padding-top: 0.27777778rem;
   }
+  .about-text-content .content-text .about-content-001 {
+    margin-top: 0.55555556rem;
+  }
   .about-text-content .content-text .flower {
     padding-top: 0.55555556rem;
     padding-bottom: 0.34722222rem;
@@ -413,6 +425,9 @@
     color: #000;
     line-height: 1.8em;
     padding-top: 0.53333333rem;
+  }
+  .about-text-content .content-text .about-content-001 {
+    margin-top: 1.06666667rem;
   }
   .about-text-content .content-text .flower {
     margin: 0 auto;
