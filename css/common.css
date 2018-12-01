@@ -288,11 +288,11 @@ body {
   -ms-transform: scaleX(0);
   -o-transform: scaleX(0);
   transform: scaleX(0);
-  -webkit-transition: -webkit-transform 0.58s cubic-bezier(0.46, 0.21, 0.32, 0.61);
-  -moz-transition: -moz-transform 0.58s cubic-bezier(0.46, 0.21, 0.32, 0.61);
-  -ms-transition: -ms-transform 0.58s cubic-bezier(0.46, 0.21, 0.32, 0.61);
-  -o-transition: -o-transform 0.58s cubic-bezier(0.46, 0.21, 0.32, 0.61);
-  transition: transform 0.58s cubic-bezier(0.46, 0.21, 0.32, 0.61);
+  -webkit-transition: -webkit-transform 0.5s cubic-bezier(0.46, 0.21, 0.32, 0.61);
+  -moz-transition: -moz-transform 0.5s cubic-bezier(0.46, 0.21, 0.32, 0.61);
+  -ms-transition: -ms-transform 0.5s cubic-bezier(0.46, 0.21, 0.32, 0.61);
+  -o-transition: -o-transform 0.5s cubic-bezier(0.46, 0.21, 0.32, 0.61);
+  transition: transform 0.5s cubic-bezier(0.46, 0.21, 0.32, 0.61);
   -ms-transform-origin: left;
   -webkit-transform-origin: left;
   -moz-transform-origin: left;
@@ -629,13 +629,14 @@ body {
   }
   .footer .img-link {
     width: 100%;
+    padding: 0;
   }
   .footer .remark {
     width: 9rem;
     margin: 0 auto;
     padding-top: .3rem;
     line-height: .38rem;
-    font-size: 12px;
+    font-size: 10px;
   }
   .footer .remark .hey-logo {
     width: 0.8rem;
@@ -665,7 +666,7 @@ body {
   .nav .text-content {
     line-height: 0.38rem;
     font-size: 12px;
-    padding-top: 0.38rem;
+    padding-top: 0.33rem;
     padding-right: .3rem;
   }
   .nav .logo {
