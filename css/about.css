@@ -189,6 +189,7 @@
   opacity: .5;
   font-weight: 200;
   line-height: 2em;
+  word-break: break-all;
 }
 .about-text-content .content-text .china-text {
   font-size: 16px;
