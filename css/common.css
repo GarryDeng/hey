@@ -622,6 +622,10 @@ body {
     width: auto;
     padding: 0 .3rem;
   }
+  .footer ul li::after {
+    height: 12px;
+    margin-top: -9px;
+  }
   .footer ul::before {
     width: .4rem;
     margin-left: -0.2rem;
