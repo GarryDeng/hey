@@ -26,6 +26,7 @@ jQuery(function(){
         jQuery(".left-nav").removeClass('left-nav-scale');
     });
     jQuery(".left-nav").on('click',function(ev){
+        console.log(jQuery(ev.target).parents().length)
         if(jQuery(ev.target).parents().length==2){
             jQuery('.hamburger').removeClass('two-hamburger');
             jQuery(".left-nav").removeClass('left-nav-scale');
